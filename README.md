@@ -1,7 +1,7 @@
 # NAM Portfolio Model Monitoring
 
 ## Overview
-This repository contains the monitoring framework for the NAM Portfolio Model, which was developed by BCG using LightGBM Binary Classification. The target variable is **60 Days Past Due (60DPD)** in the next 12 months. The model was developed in **April 2023** and has been in production since **June 2023**, with predictions made on a batch basis.
+This repository contains the monitoring framework for the NAM Portfolio Model, which was developed by BCG using LightGBM Binary Classification. The target variable is **60 Days Past Due (60DPD) in the next 12 months**. The model was developed in **April 2023** and has been in production since **June 2023**, with predictions made on a batch basis.
 
 ## Model Details
 - **Model Type**: LightGBM Binary Classification
@@ -23,7 +23,7 @@ Continuous monitoring is essential to ensure that the model remains reliable, ac
 
 ## Monitoring Approach
 The monitoring framework is designed to:
-- **Track real-time performance**: Ensures that the model outputs align with expected performance benchmarks.
+- **Track model performance**: Ensures that the model outputs align with expected performance benchmarks.
 - **Identify and address data drift**: Detects shifts in input data distribution, which may impact the model’s predictions.
 - **Manage deviations and anomalies**: Provides alerts for significant deviations from expected behavior, allowing for quick interventions.
 
@@ -36,5 +36,3 @@ The monitoring framework is designed to:
 1. Clone the repository: 
    ```bash
    git clone https://github.com/Prudick/risk-data-science-nam-pm-model-monitoring.git
-
-WHYYYYYY
